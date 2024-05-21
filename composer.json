@@ -1,0 +1,20 @@
+{
+    "name": "rafael/demo",
+    "description": "Short desc",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael Nacle"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^11.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    }
+}
